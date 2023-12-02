@@ -6,7 +6,7 @@ import { Container, Row, Col, Card } from "react-bootstrap";
 function ViewAnEmployee() {
   const { id } = useParams();
   const [employee, setEmployee] = useState(null);
-  const URL = "https://as1-mwuu.onrender.com";
+  const URL = "https://localhost:8001";
 
   useEffect(() => {
     axios

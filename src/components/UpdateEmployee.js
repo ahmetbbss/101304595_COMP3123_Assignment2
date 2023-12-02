@@ -11,7 +11,7 @@ const UpdateEmployee = () => {
   });
   const { id } = useParams();
   const navigate = useNavigate();
-  const URL = "https://as1-mwuu.onrender.com";
+  const URL = "https://localhost:8001";
 
   useEffect(() => {
     axios

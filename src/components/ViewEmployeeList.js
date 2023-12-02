@@ -11,7 +11,7 @@ const ViewEmployeeList = () => {
  const username = location.state?.username;
  const [employees, setEmployees] = useState([]);
  const navigate = useNavigate();
- const URL = "https://as1-mwuu.onrender.com";
+ const URL = "https://localhost:8001";
  
  const api = axios.create({
    baseURL: `${URL}/api/v1/emp`,
