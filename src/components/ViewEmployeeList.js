@@ -1,9 +1,9 @@
 import React from 'react'
 
-function ViewEmloyeeList () {
+function ViewEmployeeList () {
   return (
     <div>ViewEmloyeeList</div>
   )
 }
 
-export default ViewEmloyeeList
+export default ViewEmployeeList
