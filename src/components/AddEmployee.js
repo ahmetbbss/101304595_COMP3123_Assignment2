@@ -11,7 +11,7 @@ const AddEmployee = () => {
    email: "",
  });
  const navigate = useNavigate();
- const URL = "http://localhost:8001";
+ const URL = "https://as1-mwuu.onrender.com";
  
  const handleSubmit = (e) => {
    e.preventDefault();

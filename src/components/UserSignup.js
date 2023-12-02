@@ -13,7 +13,7 @@ function UserSignup() {
   } = useForm();
 
   //const proxy = "https://one01304595-comp3123-assignment1.onrender.com/api/v1/user/signup";
-  const URL = "http://localhost:8001/api/v1/user/signup";
+  const URL = "https://as1-mwuu.onrender.com/api/v1/user/signup";
 
   const [user, setUser] = useState({
     username: "",
