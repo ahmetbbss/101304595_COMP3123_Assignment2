@@ -1,4 +1,6 @@
-https://101304595-comp-3123-assignment2.vercel.app
+# 101304595_COMP3123_Assignment2_ReactJs
+# Ahmet Buyukbas
+-- Deployed : https://101304595-comp-3123-assignment2.vercel.app
 
 # Getting Started with Create React App
 
