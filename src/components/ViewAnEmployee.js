@@ -2,11 +2,12 @@ import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import axios from "axios";
 import { Container, Row, Col, Card } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 function ViewAnEmployee() {
   const { id } = useParams();
   const [employee, setEmployee] = useState(null);
-  const URL = "https://localhost:8001";
+  const URL = "https://as1-mwuu.onrender.com";
 
   useEffect(() => {
     axios
@@ -44,6 +45,9 @@ function ViewAnEmployee() {
           </Card>
         </Col>
       </Row>
+      <Link to={`/view-employees`} className="btn btn-primary me-2">
+        Back
+      </Link>
     </Container>
   );
 }

@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { useParams, useNavigate } from "react-router-dom";
 import { Container, Row, Col, Card, Form, Button } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 const UpdateEmployee = () => {
   const [employee, setEmployee] = useState({
@@ -11,7 +12,7 @@ const UpdateEmployee = () => {
   });
   const { id } = useParams();
   const navigate = useNavigate();
-  const URL = "https://localhost:8001";
+  const URL = "https://as1-mwuu.onrender.com";
 
   useEffect(() => {
     axios
@@ -88,6 +89,12 @@ const UpdateEmployee = () => {
                 <Button variant="primary" type="submit">
                   Update
                 </Button>
+                <Link
+                     to={`/view-employees`}
+                     className="btn btn-danger me-2"
+                   >
+                     Cancel
+                   </Link>
               </Form>
             </Card.Body>
           </Card>
